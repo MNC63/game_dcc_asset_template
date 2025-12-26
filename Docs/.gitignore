@@ -1,0 +1,58 @@
+```gitignore
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Maya
+# =========================
+*.mb
+*.autosave
+*.swatches
+mayaSwatches/
+autosave/
+*.log
+
+# Maya cache
+cache/
+*.mcx
+*.mcc
+*.xml
+
+# =========================
+# Substance Painter / Designer
+# =========================
+*.spp.autosave
+*.sbsar
+*.tmp
+*.bak
+
+# =========================
+# Textures (optional ignore if too heavy)
+# =========================
+# Uncomment if you want to ignore exported textures
+# textures/export/
+
+# =========================
+# Unreal Engine (if imported for test)
+# =========================
+DerivedDataCache/
+Saved/
+Intermediate/
+*.uasset
+*.umap
+
+# =========================
+# FBX backups
+# =========================
+*__backup.fbx
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
